@@ -12,8 +12,6 @@
     seeds - Data dummy
     utils - All utility that needed
 
-<hr />
-
 ## Install
 
 ### Development
