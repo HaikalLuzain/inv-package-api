@@ -1,0 +1,33 @@
+{
+  "name": "package-api",
+  "version": "1.0.0",
+  "description": "Just do it!",
+  "main": "server.js",
+  "author": "Haikal",
+  "license": "MIT",
+  "scripts": {
+    "start": "node",
+    "dev": "nodemon",
+    "test": "cross-env NODE_ENV=test jest --testTimeout=30000 --forceExit"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "verbose": true
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.4.1",
+    "mongoose": "^5.10.0",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2",
+    "uuid": "^3.4.0",
+    "yup": "^0.29.3"
+  }
+}
