@@ -18,7 +18,7 @@
 
 ### Development
 
-#### Requirements Windows 10 & Ubuntu 20.04
+#### Requirements
 
 - Install Git
 - Install MongoDB
