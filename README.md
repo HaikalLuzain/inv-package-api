@@ -6,7 +6,7 @@
 
 ## File Structure
 
-    test - Unit Testing
+    __test__ - Unit Testing
     models - Package model
     routes - Package API routes
     seeds - Data dummy
